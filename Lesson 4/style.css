@@ -1,7 +1,6 @@
 .background_of_page {
-    background-color: rgb(238, 229, 229);
-    background-position: center;
-  
+    background-image: url(img/GIXGMewbEAAcI5p.jpg);
+    background-repeat: repeat
 }
 .photo {
     width: 180px;
@@ -10,8 +9,9 @@
     font-size: 25px;
     font-family: 'Courier New', monospace;
     background-color: rgb(255, 0, 0);
-    margin-right: 550px;
+    margin-right: 1100px;
     margin-bottom: 0px;
+
 }
 h2 {
     font-size: 22px;
@@ -41,7 +41,7 @@ p {
 }
 .first_part {
     background-color: rgb(255, 136, 0);
-    margin-right: 550px;
+    margin-right: 1100px;
     margin-top: 0px;
 }
 .heading_contacts{
