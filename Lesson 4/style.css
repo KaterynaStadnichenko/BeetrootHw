@@ -1,0 +1,59 @@
+.background_of_page {
+    background-color: rgb(238, 229, 229);
+    background-position: center;
+  
+}
+.photo {
+    width: 180px;
+}
+.heading_one {
+    font-size: 25px;
+    font-family: 'Courier New', monospace;
+    background-color: rgb(255, 0, 0);
+    margin-right: 550px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 22px;
+    font-family: monospace;
+}
+h3 {
+    font-size: 20px;
+    font-family: monospace;
+    margin-right: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+p {
+    font-size: 17px;
+    font-family: monospace;
+}
+.contacts {
+    color: rgb(47, 2, 89);
+    background-color: rgb(113, 250, 195);
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.first_part {
+    background-color: rgb(255, 136, 0);
+    margin-right: 550px;
+    margin-top: 0px;
+}
+.heading_contacts{
+    margin-top: 0px;
+    padding-top: 15px;
+}
+.expertise {
+    background-color: yellow;
+}
+.awards {
+    background-color: green;
+}
+.experience {
+  background-color: blue;  
+}
