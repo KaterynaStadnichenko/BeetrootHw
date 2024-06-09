@@ -1,17 +1,12 @@
-.background_of_page {
-    background-image: url(img/GIXGMewbEAAcI5p.jpg);
-    background-repeat: repeat
-}
+
 .photo {
     width: 180px;
 }
 .heading_one {
     font-size: 25px;
     font-family: 'Courier New', monospace;
-    background-color: rgb(255, 0, 0);
-    margin-right: 1100px;
-    margin-bottom: 0px;
-
+    background-color: rgb(224, 224, 189);
+    width: 250px;
 }
 h2 {
     font-size: 22px;
@@ -20,11 +15,6 @@ h2 {
 h3 {
     font-size: 20px;
     font-family: monospace;
-    margin-right: 60px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 p {
     font-size: 17px;
@@ -34,26 +24,42 @@ p {
     color: rgb(47, 2, 89);
     background-color: rgb(113, 250, 195);
     border-radius: 20px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    display: inline-block;
+    vertical-align: top;
 }
 .first_part {
-    background-color: rgb(255, 136, 0);
-    margin-right: 1100px;
-    margin-top: 0px;
+    background-color: rgb(224, 224, 189);
+    width: 250px;
+    max-width: 250px; 
+    display: inline-block;
+    vertical-align: top;
 }
-.heading_contacts{
-    margin-top: 0px;
-    padding-top: 15px;
-}
+        
 .expertise {
-    background-color: yellow;
+    background-color: rgb(224, 224, 189);
+    width: 250px;
+    display: inline-block;
+    max-width: 250px;
+    vertical-align: top;
 }
 .awards {
-    background-color: green;
+    background-color: rgb(224, 224, 189);
+    display: inline-block;
+    max-width: 250px;
+    vertical-align: top;
 }
 .experience {
-  background-color: blue;  
+  background-color: rgb(224, 224, 189);   
+  display: inline-block;
+  max-width: 250px;
+  vertical-align: top;
+  overflow: scroll;
+  max-height: 440px;
 }
+.background_of_page {
+    background-image: url(./img/mrfresh.jpg);
+}
+* {
+    margin: 0;
+    padding: 0;
+   }
