@@ -1,0 +1,211 @@
+body {
+    font-family: 'Poppins';
+    margin: 0px;
+}
+.header {
+    margin-top: 20px;
+    display: inline-flex;
+    margin-left: 143px;
+}
+.logo {
+    width: 187px;
+    max-width: 187px;
+    margin-left: 143px;
+    margin-top: 22px;
+    max-height: 32px;
+    margin-right: 320px;
+}
+nav {
+    margin-top: 24px;
+    margin-bottom: 26px;
+    width: 350px;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+nav a {
+    color: rgba(47, 40, 30, 1);
+}
+nav :not(:last-child) {
+    margin-right: 15px;
+}
+.sign_in {
+    width: 102px;
+    height: 46px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgba(188, 208, 229, 1);
+    border-style: solid;
+    margin-top: 15px;
+    margin-left: 29px;
+    margin-right: 14px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.sign_up {
+    width: 102px;
+    height: 46px;
+    background-color: rgba(255, 153, 0, 1);
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(255, 153, 0, 1);
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.first_section {
+    margin-left: 145px;
+    display: inline-flex;
+    margin-top: 30px;
+}
+h1 {
+    font-size: 44px;
+    font-weight: bold;
+    color: rgba(47, 40, 30, 1);
+    max-width: 518px;
+    margin-bottom: 30px;
+}
+h4 {
+    width: 458px;
+    color: rgba(84, 72, 55, 1);
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 0pc;
+}
+.img_people {
+    width: 605px;
+}
+.first_text {
+    display: inline;
+    margin-left: 145px;
+    width: 518px;
+}
+.get_started {
+    width: 175px;
+    height: 53px;
+    background-color: rgba(255, 153, 0, 1);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(255, 153, 0, 1);
+    margin-top: 45px;
+    cursor: pointer;
+    
+}
+.video_button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgba(255, 153, 0, 1);
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+    max-width: 180px;
+   
+}
+.video_button::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+    background-image: url(./img/TriangleCopy6.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: -2px;
+    margin-right: 9px
+}
+.get_started.video_button {
+    display: inline-block;
+}
+.section_two{
+    margin-left: 145px;
+}
+.superpower {
+    font-size: 36px;
+    margin-top: 111px;
+    width: 539px;
+    text-align: center;
+    margin-left: 439px;
+    font-weight: bold;
+}
+.arrow {
+    width: 12px;
+    height: 18px;
+    margin-top: 17px;
+    margin-left: 19px;
+}
+.wave {
+    width: 18px;
+    height: 18px;
+    margin-top: 17px;
+    margin-left: 16px;
+}
+.heart {
+    width: 16px;
+    height: 16px;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+.clock {
+    width: 14px;
+    height: 18px;
+    margin-top: 17px;
+    margin-left: 18px;
+}
+.arrow_div, .wave_div, .heart_div, .clock_div {
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+}
+.arrow_div {
+    background-color: rgba(119, 82, 190, 1);
+}
+.wave_div {
+    background-color: rgba(250, 176, 5, 1);
+}
+.heart_div {
+    background-color: rgba(240, 62, 61, 1);
+} 
+.clock_div {
+    background-color: rgba(77, 173, 247, 1);
+}
+h3 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgba(47, 40, 30, 1);
+    margin-top: 30px;
+}
+p {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(84, 72, 55, 1);
+    margin-top: 13px;
+}
+.superpower-div {
+    margin-left: 145px;
+    margin-top: 54px;
+}
+.div_superpower {
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+.div_superpower:not(:last-child) {
+    margin-right: 45px;
+}
+.last_button {
+    width: 175px;
+    height: 53px;
+    background-color: rgba(255, 153, 0, 1);
+    color: white;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 605px;
+    margin-top: 34px;
+}
