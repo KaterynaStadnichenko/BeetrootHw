@@ -450,5 +450,63 @@ p {
 .market_div_pic {
   width: 542px;
   margin-left: 82px;
+  display: inline-flex;
+}
+.footer {
+  width: 1180px;
+  margin: 0 auto;
+  margin-top: 146px;
+}
+.footer_logo {
+  width: 185px;
   display: inline-block;
+  margin-right: 126px;
+}
+.footer_a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(84, 72, 55, 1);
+}
+.footer_first_div {
+  width: 72px;
+  display: inline-block;
+  margin-top: 167px;
+  margin-top: 65px;
+}
+.footer_a:not(:last-child) {
+  margin-bottom: 15px;
+}
+.footer_second_div {
+  display: inline-block;
+  width: 132px;
+  margin-top: 102px;
+  margin-left: 129px;
+  margin-top: 65px;
+}
+.footer_input {
+  width: 325px;
+  height: 48px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: rgba(188, 208, 229, 1);
+  border-style: solid;
+  display: inline-flex;
+  margin-top: 193px;
+}
+.footer_button {
+  width: 131px;
+  height: 39px;
+  background-color: rgba(255, 153, 0, 1);
+  border-radius: 4px;
+  border: transparent;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 21px;
+}
+.footer_third_div {
+  width: 325px;
+  height: 199px;
+  display: inline-block;
+  margin-left: 82px;
 }
