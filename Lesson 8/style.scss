@@ -2,6 +2,9 @@ body {
     font-family: 'Poppins';
     margin: 0px;
 }
+.container {
+    max-width: 1126px;
+}
 .header {
     margin-top: 20px;
     display: inline-flex;

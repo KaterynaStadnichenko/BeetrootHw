@@ -5,33 +5,31 @@ body {
 
 .header {
   margin-top: 20px;
-  display: inline-flex;
-  margin-left: 143px;
+  max-width: 1126px;
+  width: 90%;
+  margin: 0% auto;
+  display: flex;
+  justify-content: space-between; 
 }
 
 .logo {
   width: 187px;
-  max-width: 187px;
-  margin-left: 143px;
   margin-top: 22px;
   max-height: 32px;
   margin-right: 320px;
+  margin-bottom: 54px;
 }
 
 nav {
   margin-top: 24px;
   margin-bottom: 26px;
-  width: 350px;
   font-size: 14px;
   cursor: pointer;
-  
 }
 
 nav a {
   color: #2f281e;
-}
-a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 nav :not(:last-child) {
@@ -44,8 +42,8 @@ nav :not(:last-child) {
   background-color: white;
   border-radius: 5px;
   border-color: #bcd0e5;
-  border-style: solid;
   border-width: 1px;
+  border-style: solid;
   margin-top: 15px;
   margin-left: 29px;
   margin-right: 14px;
@@ -67,9 +65,12 @@ nav :not(:last-child) {
 }
 
 .first_section {
-  margin-left: 145px;
-  display: inline-flex;
   margin-top: 30px;
+  max-width: 1126px;
+  margin: 0% auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
@@ -94,7 +95,7 @@ h4 {
 
 .first_text {
   display: inline;
-  margin-left: 145px;
+
   width: 518px;
 }
 
@@ -110,8 +111,8 @@ h4 {
   border-color: #ff9900;
   margin-top: 45px;
   cursor: pointer;
-  display: inline-block;
 }
+
 .video_button {
   background-color: transparent;
   outline: none;
@@ -122,8 +123,8 @@ h4 {
   font-weight: 600;
   margin-left: 30px;
   max-width: 180px;
-  display: inline-block;
 }
+
 .video_button::before {
   content: "";
   display: inline-block;
@@ -135,16 +136,29 @@ h4 {
   margin-bottom: -2px;
   margin-right: 9px;
 }
-.section_two {
-  margin-left: 145px;
+
+.get_started.video_button {
+  display: inline-block;
 }
 
+.section_two {
+  max-width: 1126px;
+  margin: 0% auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.super {
+  max-width: 539px;
+  margin: 0% auto;
+  width: 90%;
+  display: flex;
+}
 .superpower {
   font-size: 36px;
   margin-top: 111px;
   width: 539px;
   text-align: center;
-  margin-left: 439px;
   font-weight: bold;
 }
 
@@ -167,6 +181,7 @@ h4 {
   height: 16px;
   margin-top: 17px;
   margin-left: 17px;
+
 }
 
 .clock {
@@ -213,14 +228,18 @@ p {
 }
 
 .superpower-div {
-  margin-left: 145px;
+  max-width: 1095px;
+  margin: 0 auto;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
   margin-top: 54px;
 }
 
 .div_superpower {
   width: 240px;
-  display: inline-block;
   vertical-align: top;
+  flex-direction: column;
 }
 
 .div_superpower:not(:last-child) {
@@ -236,6 +255,200 @@ p {
   border-style: none;
   font-size: 16px;
   font-weight: bold;
-  margin-left: 605px;
   margin-top: 34px;
+  text-align: center;
+  margin-bottom: 210px;
+}
+.div_last_button {
+  max-width: 175px;
+  margin: 0% auto;
+}
+.design_section {
+  max-width: 1115px;
+  margin: 0 auto;
+  width: 100%;
+}
+.design_div_text {
+  max-width: 486px;
+  display: inline-block;
+  color: rgba(47, 40, 30, 1);
+  margin-top: 26px;
+}
+.design_first_p {
+  font-size: 16px;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.design_heading {
+  margin-top: 0px;
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+.design_second_p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+.design_third_p {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(47, 40, 30, 1);
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+.design_forth_p {
+  font-size: 16px;
+  color: rgba(84, 72, 55, 1);
+  margin-top: 12px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.design_fifth_p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 28px;
+  color: rgba(47, 40, 30, 1);
+  margin-bottom: 0px;
+}
+.design_sixth_p {
+  font-size: 16px;
+  color: rgba(84, 72, 55, 1);
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+.design_seventh_p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: rgba(47, 40, 30, 1);
+  margin-bottom: 0px;
+}
+.design_eight_p {
+  font-size: 16px;
+  color: rgba(84, 72, 55, 1);
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+.design_pic {
+  display: inline-flex;
+  margin-left: 104px;
+  width: 520px;
+}
+.product_section {
+  max-width: 1126px;
+  margin: 0 auto;
+  margin-top: 102px;
+}
+.product_pic {
+  width: 535px;
+  display: inline-flex;
+  margin-right: 100px;
+}
+.product_div_text {
+  width: 486px;
+  display: inline-block
+}
+.product_first_p {
+  font-size: 16px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.product_heading {
+  margin-top: 3px;
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+.product_second_p {
+  font-size: 16px;
+  color: rgba(84, 72, 55, 1);
+  font-weight: 500;
+  margin-top: 22px;
+  margin-bottom: 0px;
+}
+.product_list {
+  list-style-type: none;
+  font-size: 16px;
+  color: rgba(84, 72, 55, 1);
+  font-weight: 500;
+  margin-top: 30px;
+}
+.product_list::before {
+  content: "";
+  background-image: url(./img/tick.svg);
+  background-color: #ff9900;
+}
+.market_section {
+  width: 1115px;
+  margin: 0 auto;
+  margin-top: 104px;
+}
+.market_div {
+  width: 486px;
+  display: inline-block;
+}
+.market_first_p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.market_heading {
+  margin-top: 3px;
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+.market_second_p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 22px;
+  margin-bottom: 0px;
+}
+.market_third_p {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(47, 40, 30, 1);
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.market_fourth_p {
+  font-size: 16px;
+  color: rgba(84, 72, 55, 1);
+  margin-top: 12px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.market_fifth_p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: rgba(47, 40, 30, 1);
+  margin-bottom: 0px;
+}
+.market_sixth_p {
+  font-size: 16px;
+  color: rgba(84, 72, 55, 1);
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+.market_seventh_p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: rgba(47, 40, 30, 1);
+  margin-bottom: 0px;
+}
+.market_eight_p {
+  font-size: 16px;
+  color: rgba(84, 72, 55, 1);
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+.market_div_pic {
+  width: 542px;
+  margin-left: 82px;
+  display: inline-block;
 }
