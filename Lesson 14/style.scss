@@ -1,0 +1,266 @@
+.page_wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  font-family: "Avenir Next Cyr";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.header_logo {
+  width: 130px;
+}
+
+.header_a {
+  display: flex;
+  align-items: center;
+}
+
+.header_service, .header_about, .header_contact {
+  text-decoration: none;
+  color: #13253a;
+  font-size: 14px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.header_service, .header_about {
+  margin-right: 50px;
+}
+
+.section_one {
+  margin-top: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.section_one_first_p {
+  font-size: 16px;
+  color: #2557ab;
+  margin-bottom: 5px;
+}
+
+.section_one_heading {
+  color: #13253a;
+  font-size: 46px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.section_one_second_p {
+  font-size: 16px;
+  color: #13253a;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.section_one_button {
+  width: 336px;
+  height: 60px;
+  background-color: #ff7f57;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.section_one_div_two {
+  max-width: 568px;
+}
+
+.section_one_div_one {
+  max-width: 470px;
+}
+.section_two {
+  margin-top: 300px;
+  margin-bottom: 0px;
+}
+.section_two_first_p {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: rgba(37, 87, 171, 1);
+  margin-bottom: 0px;
+}
+.section_two_second_p {
+  display: flex;
+  justify-content: center;
+  color: rgba(19, 37, 58, 1);
+  font-size: 38px;
+  margin-top: 5px;
+  max-width: 1170px;
+}
+.section_two_first_div, .section_two_second_div, .section_two_third_div {
+  margin-top: 30px;
+  max-width: 370px;
+  display: inline-block;
+  margin-left: 0px;
+}
+.section_two_first_div, .section_two_second_div {
+  margin-right: 26px;
+}
+.comp_pic, .award_pic, .support_pic {
+width: 64px;
+display: flex;
+justify-content: center;
+// pls help idk how to fix it, воно не стає в центр, я не розумію що робити
+}
+.section_two_first_div_first_p, .section_two_second_div_first_p, .section_two_third_div_first_p {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(59, 77, 108, 1);
+  display: flex;
+  justify-content: center;
+}
+.section_two_first_div_second_p, .section_two_second_div_second_p, .section_two_third_div_second_p {
+  font-size: 16px;
+  color: rgba(19, 37, 58, 1);
+  display: flex;
+  justify-content: center;
+}
+.section_three {
+  margin-top: 160px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+ align-content: center;
+ height: 85px;
+}
+.section_three_first_div {
+  max-width: 211px;
+}
+.section_three_second_div {
+  max-width: 147px;
+  margin-left: 125px;
+  margin-right: 157px;
+}
+.section_three_first_p, .section_three_second_p, .section_three_third_p {
+  color: rgba(37, 87, 171, 1);
+  font-weight: 16px;
+  margin: 0px;
+}
+.section_three_first_pic {
+  width: 120px;
+  height: 63px;
+}
+.section_three_second_pic {
+  width: 144px;
+  height: 63px;
+}
+.section_three_third_pic {
+  width: 120px;
+  height: 63px;
+}
+.section_three_first_div {
+width: 211px;
+height: 85px;
+}
+
+.section_three_second_div {
+width: 147px;
+height: 85px;
+}
+
+.section_three_third_div {
+width: 135px;
+height: 85px;
+}
+.section_four_first_p {
+  color: #2557ab;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 160px;
+}
+.section_four_second_p {
+  color: rgba(19, 37, 58, 1);
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.section_four_third_p {
+
+font-style: italic;
+font-size: 20px;
+color: rgba(19, 37, 58, 1);
+margin-bottom: 0px;
+margin-top: 30px;
+}
+.section_four_fourth_p {
+ 
+  font-size: 16px;
+  color: rgba(19, 37, 58, 1);
+  margin-top: 20px;
+  
+}
+.section_four_fifth_p {
+  width: 570px;
+  color: rgba(19, 37, 58, 1);
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 27px;
+}
+.section_four {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  max-width: 970px;
+  margin-bottom: 0px;
+}
+.section_four_div {
+  max-width: 370px;
+  display: inline-block;
+}
+.logo_div {
+margin-top: 60px;
+max-width: 970px;
+margin-left: 100px;
+margin-bottom: 0px;
+display: flex;
+justify-content: space-between;
+}
+.section_five {
+  margin-top: 203px;
+}
+.section_five_first_p {
+  font-size: 38px;
+  font-weight: 800;
+  color: rgba(19, 37, 58, 1);
+  max-width: 370px;
+  margin-bottom: 0px;
+}
+.section_five_second_p {
+  max-width: 470px;
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: rgba(19, 37, 58, 1);
+
+}
+.section_five_ul {
+  font-size: 15px;
+  line-height: 27px;
+  color: rgba(19, 37, 58, 1);
+  font-weight: 700;
+  list-style-image: url(./img/icon-tick.svg);
+  // pls help idk how to fix it, я намагалася це зробити десь годину
+}
+.section_five_pic {
+  max-width: 600px;
+  display: inline-block;
+  margin-left: 96px;
+}
+.section_five_div {
+  display: inline-block;
+}
