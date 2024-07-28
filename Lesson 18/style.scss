@@ -23,6 +23,15 @@
 header {
     padding-top: 69px;
     margin-bottom: 145px;
+
+    @media screen and (max-width: 568px){
+        margin-bottom: 70px;
+    }
+    @media screen and (max-width: 1200px) and (min-width: 569px){
+        margin-bottom: 228px;
+        padding-top: 43px;
+    }
+  
 }
 nav {
     display: flex;
@@ -31,6 +40,39 @@ nav {
     column-gap: 29px;
     font-weight: 400;
     font-size: 16px;
+
+    @media screen and (max-width: 568px){
+        display: none;
+    }
+    @media screen and (max-width: 1200px) and (min-width: 569px){
+        padding-right: 73px;
+    }
+}
+.hamburger {
+    position: fixed;
+    display: block;
+    padding: 30px;
+    top: 17px;
+    right: 32px;
+
+    span {
+        display: inline-block;
+        width: 3px;
+        height: 3px;
+        background-color: rgba(36, 38, 53, 1); 
+        border-radius: 50%;
+    }
+    &::after, &::before {
+        content: '';
+        display: inline-block;
+        width: 3px;
+        height: 3px;
+        background-color: rgba(36, 38, 53, 1);
+        border-radius: 50%;
+    }
+    @media screen and (min-width: 568px) {
+        display: none;
+    }
 }
 h1 {
     font-size: 84px;
@@ -64,12 +106,18 @@ h1 {
         font-size: 12px;
         line-height: 18px;
         margin-bottom: 57px;
+        max-width: 217px;
+        width: 100%;
     }
     @media screen and (max-width: 1200px) and (min-width: 569px){
         font-size: 22px;
         line-height: 33px;
         margin-bottom: 45px;
+        
     }
+  }
+  img {
+    width: 100%;
   }
 @media screen and (max-width: 568px){
     
