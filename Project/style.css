@@ -1,0 +1,72 @@
+.page_wrapper {
+  margin: 0;
+  padding: 0;
+  color: blue;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.mountains_pic {
+  margin: 0 auto;
+  max-width: 1770px;
+  padding: 0;
+}
+
+.mountains_section {
+  position: absolute;
+}
+
+.heading_bhromaon {
+  font-size: 48px;
+  font-weight: 800;
+  color: black;
+  line-height: 26px;
+}
+
+.mountains_paragraph {
+  font-size: 22px;
+  font-weight: 400;
+  color: black;
+  line-height: 26px;
+}
+
+.mountains_search {
+  width: 500px;
+  height: 60px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+  letter-spacing: 2.8px;
+  border: none;
+  padding: 0;
+  display: flex;
+  padding-left: 111px;
+}
+
+.search_bar {
+  width: 653px;
+  height: 63px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_button {
+  color: white;
+  background-color: #5474fd;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  letter-spacing: 1.4px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  font-family: "Aleo", serif;
+}
+
+.search_icon {
+  width: 22px;
+  height: 24px;
+}
