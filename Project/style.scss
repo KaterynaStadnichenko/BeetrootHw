@@ -1,6 +1,8 @@
-.page_wrapper {
+
+body {
     margin: 0;
     padding: 0;
+}.page_wrapper {
     color: white;
     font-family: "Josefin Sans", sans-serif;
 }
@@ -9,16 +11,19 @@
     max-width: 1770px;
     position: relative;
     margin-bottom: -5px;
+    width: 100%;
+
 }
 .mountains_pic {
     margin: 0 auto;
+    width: 100%;
 }
 
 .mountains_text {
 max-width: 372px;
 position: absolute;
-top: 250px;
-left: 670px
+top: 205px;
+left: 518px;
 }
 
 .heading_bhromaon {
@@ -59,8 +64,8 @@ left: 670px
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 450px;
-    left: 558px;
+    top: 373px;
+    left: 396px;
     
 }
 
@@ -84,8 +89,8 @@ left: 670px
 }
 .scroll_down {
     position: absolute;
-    top: 630px;
-    left: 803px;
+    top: 539px;
+    left: 653px;
 }
 .scroll_icon {
     position: absolute;
@@ -149,12 +154,17 @@ left: 670px
     margin: 0 auto;
     position: relative;
     margin-bottom: -83px;
+    width: 100%;
+}
+.building_pic {
+    width: 100%;
+    max-width: 1770px;
 }
 .whychooseus_wrapper {
     max-width: 560px;
     position: absolute;
-    top: 200px;
-    left: 320px;
+    top: 90px;
+    left: 167px;
     z-index: 2;
 }
 .whychooseus_heading {
@@ -183,13 +193,13 @@ left: 670px
 }
 .lake_pic {
     position: absolute;
-    top: 125px;
-    right: 420px;
+    top: 45px;
+    right: 185px;
 }
 .small_mount_pic {
     position: absolute;
-    right: 330px;
-    bottom: 115px;
+    right: 60px;
+    bottom: 35px;
 }
 .explanation {
     max-width: 1770px;
@@ -198,7 +208,6 @@ left: 670px
     background-color: rgba(51, 51, 51, 1);
     font-size: 36px;
     font-family: "Aleo", serif;
-    
 }
 .explanation_wrapper {
     display: flex;
@@ -212,4 +221,56 @@ left: 670px
 .big_search_icon {
     height: 59px;
     margin-bottom: 5px;
+    
 }
+.fancy_house {
+    width: 100%;
+}
+.grand_spain_madrid {
+    margin: 0 auto;
+    max-width: 1770px;
+    position: relative;
+}
+.spain_madrid_wrapper {
+    height: 370px;
+    width: 540px;
+    background-color: rgba(35, 35, 35, 0.85);
+    position: absolute;
+    top: 110px;
+    left: 200px;
+}
+.spain_text {
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    margin-left: 30px;
+    padding-top: 47px;
+    margin-bottom: 0px;
+}
+.spain_heading {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 23px;
+}
+.spain_explaining {
+    font-size: 16px;
+    width: 508px;
+    margin-left: 30px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+.booking_button {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    border: none;
+    background-color: rgba(84, 116, 253, 1);
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    font-family: "Aleo", serif;
+    margin-left: 30px;
+    margin-top: 46px;
+}
+
