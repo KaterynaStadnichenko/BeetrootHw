@@ -31,7 +31,6 @@
 
 .mountains_search {
   width: 500px;
-  height: 60px;
   font-size: 14px;
   line-height: 26px;
   color: #999999;
@@ -39,7 +38,7 @@
   border: none;
   padding: 0;
   display: flex;
-  padding-left: 111px;
+  justify-content: center;
 }
 
 .search_bar {
