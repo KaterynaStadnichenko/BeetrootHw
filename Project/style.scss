@@ -1,33 +1,44 @@
 .page_wrapper {
     margin: 0;
     padding: 0;
-    color: blue;
+    color: white;
     font-family: "Josefin Sans", sans-serif;
+}
+.mountains_section {
+    margin: 0 auto;
+    max-width: 1770px;
+    position: relative;
+    margin-bottom: -5px;
 }
 .mountains_pic {
     margin: 0 auto;
-    max-width: 1770px;
-    padding: 0;
-}
-
-.mountains_section {
-    position: absolute;
 }
 
 .mountains_text {
-
+max-width: 372px;
+position: absolute;
+top: 250px;
+left: 670px
 }
+
 .heading_bhromaon {
     font-size: 48px;
     font-weight: 800;
-    color: black;
     line-height: 26px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 11px;
+    letter-spacing: 4.8px;
+    margin-left: 3px;
 }
 .mountains_paragraph {
     font-size: 22px;
     font-weight: 400;
-    color: black;
     line-height: 26px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    letter-spacing: 6.82px  ;
 }
 .mountains_search {
   width: 500px;
@@ -47,6 +58,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 450px;
+    left: 558px;
+    
 }
 
 .search_button {
@@ -66,4 +81,135 @@
 .search_icon {
     width: 22px;
     height: 24px;
+}
+.scroll_down {
+    position: absolute;
+    top: 630px;
+    left: 803px;
+}
+.scroll_icon {
+    position: absolute;
+    left: 39px;
+    top: 40px;
+    width: 17px;
+}
+.scroll_down_text {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 2.8px;
+}
+.header {
+ background-color: rgba(84, 116, 253, 1);
+ margin: 0 auto;
+ padding: 0;
+ max-width: 1770px;
+ height: 80px;
+ margin-bottom: -5px;
+}
+.bhromaon_head {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+    margin-right: 410px;
+    color: white;
+    display: flex;
+    align-items: center;
+   
+
+    &:hover {
+        color:rgb(124, 137, 221);
+    }
+}
+.navigation {
+    max-width: 525px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    column-gap: 15px;
+}
+.nav_items {
+    text-decoration: none;
+    font-family: "Aleo", serif;
+    color: white;
+
+    &:hover {
+        color:rgb(124, 137, 221);
+    }
+}
+.header_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.choose_section {
+    max-width: 1770px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: -83px;
+}
+.whychooseus_wrapper {
+    max-width: 560px;
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    z-index: 2;
+}
+.whychooseus_heading {
+    font-family: "Aleo", serif;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.titon_text {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+.explore_button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 21px;
+    padding-bottom: 16px;
+    border: none;
+    background-color: rgba(84, 116, 253, 1);
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    font-family: "Aleo", serif;
+    text-transform: uppercase;
+    color: white;
+}
+.lake_pic {
+    position: absolute;
+    top: 125px;
+    right: 420px;
+}
+.small_mount_pic {
+    position: absolute;
+    right: 330px;
+    bottom: 115px;
+}
+.explanation {
+    max-width: 1770px;
+    margin: 0 auto;
+    height: 337px;
+    background-color: rgba(51, 51, 51, 1);
+    font-size: 36px;
+    font-family: "Aleo", serif;
+    
+}
+.explanation_wrapper {
+    display: flex;
+    padding-top: 120px;
+    justify-content: center;
+    column-gap: 150px;
+}
+.big_search_icon, .round_icon, .finger_up_class {
+    margin-left: 70px;
+}
+.big_search_icon {
+    height: 59px;
+    margin-bottom: 5px;
 }
