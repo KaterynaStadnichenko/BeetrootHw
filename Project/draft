@@ -1,0 +1,46 @@
+ </section>
+            <header class="header">
+                <div class="header_div">
+                <a href="#" class="bhromaon_head">BHROMAON</a>
+                <nav class="navigation">
+                    <a href="#" class="nav_items">Who We Are    </a>
+                    <a href="#" class="nav_items">What We Do</a>
+                    <a href="#" class="nav_items">Travel With Us</a>
+                    <a href="#" class="nav_items">Contact Us</a>
+                </nav>
+                </div>
+            </header>
+            <section class="choose_section">
+                <div class="whychooseus_wrapper">
+                    <p class="whychooseus_heading">Why Choose Us</p>
+                    <p class="titon_text">Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee 
+                        <br>
+                        <br>
+                        <br>Dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.
+                    </p>
+                    <button class="explore_button">Explore Places</button>
+                </div>
+                <img src="./img/house_lake.jpg" class="lake_pic">
+                <img src="./img/small_mount.jpg" class="small_mount_pic">
+            </section>
+            <section class="explanation">
+                <div class="explanation_wrapper">
+                <div class="select_places">
+                    <img src="./img/round_icon.svg" class="round_icon">
+                    <p>Select Places</p>
+                </div>
+                <div class="bookandenjoy">
+                    <img src="./img/finger_up_class.svg" class="finger_up_class">
+                    <p>Book & Enjoy</p>
+                </div>
+                </div>
+            </section>
+            <section class="grand_spain_madrid">
+                
+                <div class="spain_madrid_wrapper">
+                    <p class="spain_text">Spain</p>
+                    <p class="spain_heading">Grand Spain Madrid</p>
+                    <p class="spain_explaining">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
+                    <button class="booking_button">Book Now</button>
+                </div>
+            </section>
