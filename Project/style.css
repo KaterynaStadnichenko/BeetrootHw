@@ -16,6 +16,7 @@ body {
 .hero_pic {
   margin: 0 auto;
   width: 100%;
+  display: block;
 }
 
 .hero_wrapper {
@@ -58,14 +59,15 @@ body {
   color: #999999;
   letter-spacing: 2.8px;
   border: none;
-  padding: 0;
+  padding: 17px;
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
 .search_bar {
-  width: 653px;
+  max-width: 653px;
+  width: 100%;
   height: 63px;
   background-color: white;
   display: flex;
@@ -121,8 +123,7 @@ body {
 
 .header {
   background-color: #5474fd;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0px;
 }
 
 .header_content {
@@ -147,7 +148,7 @@ body {
   align-items: center;
 }
 .bhromaon_header:hover {
-  color: #7c89dd;
+  color: #ddd87c;
 }
 
 .navigation {
@@ -165,7 +166,7 @@ body {
   color: white;
 }
 .nav_items:hover {
-  color: #7c89dd;
+  color: #ddd87c;
 }
 
 .header_div {
@@ -179,7 +180,7 @@ body {
   margin: 0 auto;
   width: 100%;
   background-image: url(./img/building_pic.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   background-position: center top;
   background-repeat: no-repeat;
 }
@@ -188,7 +189,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 38px;
+  padding: 118px 0;
 }
 
 .whychooseus_wrapper {
@@ -225,6 +226,7 @@ body {
 
 .image_wrapper {
   max-width: 440px;
+  padding-bottom: 10px;
 }
 
 .lake_pic {
@@ -249,6 +251,7 @@ body {
   padding-top: 80px;
   justify-content: center;
   column-gap: 150px;
+  position: relative;
 }
 
 .big_search_icon, .round_icon, .finger_up_class {
@@ -258,6 +261,12 @@ body {
 .big_search_icon {
   height: 59px;
   margin-bottom: 5px;
+}
+
+.lines {
+  position: absolute;
+  top: 5%;
+  left: 40%;
 }
 
 .fancy_house {
@@ -271,7 +280,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-block: 150px;
+  padding: 227px 0px 80px;
 }
 
 .spain_madrid_wrapper {
@@ -316,4 +325,120 @@ body {
   font-family: "Aleo", serif;
   margin-left: 30px;
   margin-top: 46px;
+}
+
+.grand_spain_madrid_second {
+  width: 100%;
+  background-image: url(./img/second_madrid.jpg);
+  background-size: 100% 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 227px 0 85px;
+}
+
+.second_madrid {
+  height: 370px;
+  width: 540px;
+  background-color: rgba(35, 35, 35, 0.85);
+}
+
+.second_madrid_wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tourist_say {
+  background-image: url(./img/tourist_say.jpg);
+  background-size: 100% 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.tourist_header {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  padding: 128px 0 91px;
+  margin: 0;
+}
+
+.tourist_pic {
+  max-width: 445px;
+  width: 100%;
+}
+
+.tourist_text_wrapper {
+  max-width: 668px;
+  width: 100%;
+  background-color: #333333;
+  padding: 49px 25px 39px 62px;
+}
+
+.tourist_name {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.tourist_text {
+  font-size: 16px;
+  color: #e8e8e8;
+}
+
+.tourist_pic_text_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 200px;
+}
+
+.footer {
+  background-color: #232323;
+  text-align: center;
+  padding: 122px 0 53px;
+}
+
+.footer_bhromaon {
+  font-size: 24px;
+  letter-spacing: 3.36px;
+  padding-bottom: 8px;
+}
+
+.footer_paragraph {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  padding-bottom: 20px;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: center;
+  column-gap: 26px;
+}
+
+.facebook_icon, .twi_icon, .youtube_icon, .pint_icon {
+  color: white;
+}
+
+.facebook_icon:hover {
+  color: #4267b2;
+}
+
+.twi_icon:hover {
+  color: black;
+}
+
+.youtube_icon:hover {
+  color: red;
+}
+
+.pint_icon:hover {
+  color: #bd081c;
+}
+
+.linked_icon {
+  color: #5474fd;
+}
+.linked_icon:hover {
+  color: white;
 }
