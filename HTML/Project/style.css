@@ -277,6 +277,7 @@ body {
   background-image: url(./img/fancy_house.jpg);
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: 100% 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
