@@ -1,0 +1,22 @@
+"use strict";
+
+var userName = prompt("please enter username");
+alert("Hello " + userName + '!');
+var currentYear = 2024;
+var userBirthYear = prompt("pls enter your birth year");
+var userAge = currentYear - userBirthYear;
+alert("you are " + userAge);
+var distance = prompt("pls enter distance");
+var time = prompt("pls enter time");
+var speed = distance / time;
+alert(speed + "km/h");
+var flashDriveSizeGB = prompt("Please enter the flash drive memory size in GB:");
+var flashDriveSizeMB = flashDriveSizeGB * 1024;
+var fileSizeMB = 820;
+var fileCount = Math.floor(flashDriveSizeMB / fileSizeMB);
+alert("You can store " + fileCount + " files of 820MB on this flash drive.");
+var walletAmount = prompt("Please enter the amount of money in your wallet:");
+var chocolatePrice = prompt("Please enter the price of one chocolate bar:");
+var chocolateCount = Math.floor(walletAmount / chocolatePrice);
+var change = walletAmount % chocolatePrice;
+alert("You can buy " + chocolateCount + " chocolate bars and you will have " + change + " left as change.");
