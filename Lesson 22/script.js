@@ -1,6 +1,4 @@
-let userNumber = prompt("pls enter three-digit number");
-const correctNum = 123;
-alert()
+let
 
 
 const today = new Date();
