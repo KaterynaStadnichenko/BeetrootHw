@@ -35,3 +35,55 @@ function calculateTime(cars, distance) {
     console.log(drivingTime + breakTime);
   }
 }
+
+var start = Date.now();
+var myTime = new Date(); // console.log(myTime)
+
+var time = {
+  hour: myTime.getHours(),
+  minute: myTime.getMinutes(),
+  second: myTime.getSeconds()
+};
+showTime(time);
+
+function showTime(time) {
+  for (var theTime in time) {
+    console.log("".concat(theTime, ": ").concat(time[theTime]));
+  }
+}
+
+var newSecond = prompt("put second");
+newSecond = Number(newSecond);
+showSeconds(newSecond, time);
+
+function showSeconds(newSecond, time) {
+  var totalSeconds = time.second + newSecond;
+  var additionalMinutes = Math.floor(totalSeconds / 60);
+  totalSeconds = totalSeconds % 60;
+  var totalMinutes = time.minute + additionalMinutes;
+  var additionalHours = Math.floor(totalMinutes / 60);
+  totalMinutes = totalMinutes % 60;
+  var totalHours = (time.hour + additionalHours) % 24;
+  console.log("Updated Time: ".concat(totalHours, "h:").concat(totalMinutes, "m:").concat(totalSeconds, "s"));
+}
+
+var newMinutes = prompt("put minute");
+newMinutes = Number(newMinutes);
+showMinutes(newMinutes, time);
+
+function showMinutes(newMinutes, time) {
+  var totalMinutes = time.minute + newMinutes;
+  var additionalHours = Math.floor(totalMinutes / 60);
+  totalMinutes = totalMinutes % 60;
+  var totalHours = (time.hour + additionalHours) % 24;
+  console.log("Updated Time: ".concat(totalHours, "h:").concat(totalMinutes, "m: ").concat(time.second, "s:"));
+}
+
+var newHours = prompt("put hours");
+newHours = Number(newHours);
+showHours(newHours, time);
+
+function showHours(newHours, time) {
+  var totalHours = (newHours + time.hour) % 24;
+  console.log("Updated Time: ".concat(totalHours, "h:").concat(time.minute, "m: ").concat(time.second, "s:"));
+}
