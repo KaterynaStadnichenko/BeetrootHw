@@ -1,7 +1,7 @@
-.modal {
+.song-list {
     display: none;
 }
 
-.modal.visible {
+.song-list.visible {
     display: block;
 }
