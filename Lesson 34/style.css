@@ -1,0 +1,14 @@
+#textEditor  {
+    display: none;
+}
+
+#textEditor.visible {
+    display: block;
+}
+
+#display {
+    display: none;
+}
+#display.hidden {
+    display: block;
+}
