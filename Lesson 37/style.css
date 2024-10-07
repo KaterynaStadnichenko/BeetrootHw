@@ -1,0 +1,23 @@
+
+
+.container {
+   margin: 0 auto;
+   max-width: 900px;
+   width: 100%;
+   text-align: center;
+  }
+  .object {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .your-class {
+    max-width: 900px;
+    width: 100%;
+  }
+button.slick-next.slick-arrow::before {
+    color: black;
+}
+button.slick-prev.slick-arrow::before {
+    color: black;
+}
