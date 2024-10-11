@@ -1,0 +1,418 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .page_wrapper {
+    color: #2c4058;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .container {
+    margin: 0px auto;
+    max-width: 1170px;
+    width: 100%;
+  }
+  
+  .hero_section {
+    background-image: linear-gradient(rgba(126, 90, 255, 0.75), rgba(85, 183, 255, 0.75)), url(./img/hero_backgroung.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    margin-bottom: 100px;
+  }
+  
+  .hero_navigation {
+    color: white;
+    padding-top: 53px;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 223px;
+  }
+  
+  .hero_logo {
+    max-width: 241px;
+    padding-right: 144px;
+  }
+  
+  .hero_nav {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 14px;
+    max-width: 515px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+  }
+  
+  .hero_social {
+    max-width: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hero_social i {
+    display: flex;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 9px;
+    border-width: 1px;
+    width: 13px;
+    height: 13px;
+    align-items: center;
+  }
+  
+  .hero_nav, a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hero_nav ::before, a ::before {
+    content: url(./img/Ellipse4.svg);
+    margin-right: 14px;
+    width: 9px;
+    height: 9px;
+  }
+  
+  .hero_nav ::before :hover, a ::before :hover {
+    content: url(./img/Ellipse1.svg);
+  }
+  
+  .hero_nav :hover, a :hover {
+    text-decoration: none;
+    color: #c7c8ff;
+  }
+  
+  .hero_heading {
+    color: white;
+    display: inline;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .heading {
+    font-size: 80px;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+  }
+  
+  .hero_explanation {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 6px;
+    padding-bottom: 240px;
+  }
+  
+  .hero_arrow {
+    border-radius: 50%;
+    border-style: solid;
+    background-color: transparent;
+    border-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .trade_center_heading {
+    display: block;
+    text-align: center;
+    margin-bottom: 146px;
+    font-size: 44px;
+  }
+  
+  .trade_center_image {
+    box-shadow: -215px -57px 0px 6px #55b7ff;
+    max-width: 630px;
+    width: 100%;
+  }
+  
+  .one_word {
+    font-size: 22px;
+    margin-bottom: 0px;
+  }
+  
+  .trade_center_title {
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 19px;
+    margin-top: 0px;
+  }
+  
+  .trade_center_p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 41px;
+     font-family: "Open Sans", sans-serif;
+  }
+  
+  .trade_center_button {
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: white;
+    border-style: solid;
+    border-color: #2c4058;
+    border-width: 1px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 60px;
+  }
+  
+  .trade_center_adress {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .trade_center_adress_icon {
+    margin-right: 10px;
+    width: 9px;
+  }
+  .trade_center_text {
+    max-width: 470px;
+    width: 100%;
+  }
+  .trade_center_div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .trade_center_section {
+    margin-bottom: 200px;
+  }
+  .commerce_centre_word {
+    font-size: 22px;
+    margin-bottom: 0px;
+  }
+  .commerce_centre_title {
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 19px;
+    margin-top: 0px;
+  }
+  .commerce_centre_p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 41px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .commerce_centre_button {
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: white;
+    border-style: solid;
+    border-color: #2c4058;
+    border-width: 1px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 60px;
+  }
+  .commerce_centre_text {
+    max-width: 470px;
+    width: 100%;
+  }
+  .commerce_centre_img {
+    box-shadow: 215px -57px 0px 6px rgba(126, 90, 255, 1);
+    max-width: 630px;
+    width: 100%;
+  }
+  .commerce_centre_section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+  }
+  .commerce_centre_adress_icon {
+    margin-right: 10px;
+    width: 9px;
+  }
+  .commerce_centre_adress {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+  }
+  .latest_news_section {
+    background-image: url(./img/Rectangle5.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% 100%;
+  }
+  .news_heading {   
+    font-size: 44px;
+    text-align: center;
+    color: white;
+    padding-top: 165px;
+    padding-bottom: 90px;
+  }
+
+  .unmached_beauty_div {
+    width: 370px;
+    background-color: white;
+    margin-right: 30px;
+  }
+  .unmached_beauty_div_for_text {
+   width: 330px;
+   margin: 0 auto;
+  }
+  .unmached_beauty_img {
+    max-width: 370px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .unmached_beauty_heading {
+    margin-top: 0px;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .unmached_beauty_p {
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .unmached_beauty_prof {
+    margin-top: 39px;
+    max-width: 186px;
+    width: 100%;
+  }
+.news_slider {
+    padding-bottom: 213px;
+  
+}
+.unmached_beauty_prof_pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.unmached_beauty_prof_name {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.unmached_beauty_prof_date {
+    font-size: 14;
+    color: rgba(85, 183, 255, 1);
+    margin-top: 0px;
+}
+.unmached_beauty_prof {
+    display: flex;
+    align-items: center;
+}
+.unmached_beauty_prof_text {
+    width: 106px;
+    padding-left: 20px;
+}
+.effective_advertising_div {
+    width: 370px;
+    background-color: white;
+    margin-right: 30px;
+}
+.effective_advertising_img {
+    max-width: 370px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.effective_advertising_div_for_text {
+    width: 330px;
+   margin: 0 auto;
+}
+.effective_advertising_heading {
+    margin-top: 0px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.effective_advertising_p {
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+.effective_advertising_prof {
+    margin-top: 39px;
+    max-width: 264px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.effective_advertising_prof_pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.effective_advertising_prof_text {
+    max-width: 184px;
+    width: 100%;
+    padding-left: 20px;
+}
+.effective_advertising_prof_name {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.effective_advertising_prof_date {
+    font-size: 14;
+    color: rgba(85, 183, 255, 1);
+    margin-top: 0px;
+}
+.hipnotize_yourself_div {
+  width: 370px;
+    background-color: white;
+    margin-right: 30px;
+}
+.hipnotize_yourself_img {
+  max-width: 370px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.hipnotize_yourself_div_for_text {
+  width: 330px;
+   margin: 0 auto;
+}
+.hipnotize_yourself_heading {
+  margin-top: 0px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.hipnotize_yourself_p {
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+.hipnotize_yourself_prof {
+  margin-top: 39px;
+  max-width: 199px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.hipnotize_yourself_prof_pic {
+  width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.hipnotize_yourself_prof_text {
+  width: 119px;
+    padding-left: 20px;
+}
+.hipnotize_yourself_prof_name {
+  font-size: 18px;
+    margin-bottom: 6px;
+}
+.hipnotize_yourself_prof_date {
+  font-size: 14;
+  color: rgba(85, 183, 255, 1);
+  margin-top: 0px;
+}
+.news_slider_container {
+max-width: 1100px;
+width: 100%;
+margin: 0 auto;
+}
