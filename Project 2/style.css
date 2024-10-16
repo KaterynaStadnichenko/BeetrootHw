@@ -504,10 +504,8 @@ button.slick-prev.slick-arrow::before {
 }
 
 .gallery_pic {
-  max-width: 580px;
-  width: 100%;
-  position: relative;
-  opacity: 50;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 .degree {
@@ -517,11 +515,32 @@ button.slick-prev.slick-arrow::before {
 }
 
 .gallery_pic_1 {
-  display: inline-block;
-  max-width: 580px;
+  width: 580px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.first_img_line {
   width: 100%;
+  max-width: 580px;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 .gallery_pic {
   display: inline-flex;
+}
+
+.second_img_div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.gallery_pic_2, .gallery_pic_3, .gallery_pic_4, .gallery_pic_5 {
+  width: 285px;
+}
+
+.smaller_pics {
+  width: 580px;
 }
