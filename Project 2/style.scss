@@ -432,7 +432,7 @@ button.slick-next.slick-arrow::before {
   display: flex;
   align-items: end;
   justify-content: flex-end;
-  // margin-left: 60px;
+  margin-left: 60px;
 
 }
 button.slick-prev.slick-arrow::before {
@@ -448,7 +448,13 @@ button.slick-prev.slick-arrow::before {
  border-width: 1px;
  display: flex;
  align-items: end;
-//  margin-left: -80px;
+ margin-left: -100px;
+}
+button#slick-slide-control00::before {
+  content: url(./img/slider_dot.svg);
+}
+button#slick-slide-control01::before {
+  content: url(./img/slider_dot.svg);
 }
 .gallery_section {
   margin-top: 170px;
