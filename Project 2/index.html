@@ -21,6 +21,14 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
 
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+
+    
+    <link type="text/css" rel="stylesheet" href="./lg/lg-zoom.css" />
+    <link type="text/css" rel="stylesheet" href="./lg/lg-thumbnail.css" />
+    <link type="text/css" rel="stylesheet" href="./lg/lightgallery.css"/>
+    <link type="text/css" rel="stylesheet" href="./lg/lightgallery-bundle.css" />
+
     <link  rel="stylesheet" href="./fonts/fa/css/all.min.css">
 </head>
 <body>
@@ -30,10 +38,10 @@
             <div class="hero_navigation container">
                 <img src="./img/Logo.svg" alt="logo" class="hero_logo">
                 <nav class="hero_nav ">
-                    <a href="#">ABOUT US</a>
-                    <a href="#">PROJECTS</a>
-                    <a href="#">NEWS</a>
-                    <a href="#">CONTACT</a>
+                    <a href="#" id="about_us">ABOUT US</a>
+                    <a href="#" id="projects">PROJECTS</a>
+                    <a href="#" id="news">NEWS</a>
+                    <a href="#" id="contact">CONTACT</a>
                 </nav>
             <div class="hero_social">
                 <i class="fa-brands fa-facebook-f" href="#"></i>
@@ -45,13 +53,13 @@
                 <h1 class="heading">SIMPLE & MODERN</h1>
                 <h2 class="hero_explanation">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h2>
                     <div class="hero_arrow_div">
-                        <button class="hero_arrow"><img src="./img/.svg"></button>
+                        <button class="hero_arrow" id="scrollButton"><img src="./img/.svg"></button>
                     </div>
             </div>
         </div>
         </header>
-        <main>
-            <section class="trade_center_section container">
+        <main id="lowerSection">
+            <section class="trade_center_section container " id="lowerSection">
                 <h2 class="trade_center_heading">WHAT WE DO</h2>
                 <div class="trade_center_div">
                     <img src="./img/MaskGroup.jpg" alt="building" class="trade_center_image">
@@ -64,7 +72,7 @@
                     </div>
                 </div>
             </section>
-            <section class="commerce_centre_section container">
+            <section class="commerce_centre_section container" id="commerce_centre_section">
                 <div class="commerce_centre_text">
                     <p class="commerce_centre_word">INTERNATIONAL</p>
                     <h3 class="commerce_centre_title">COMMERCE CENTRE</h3>
@@ -74,69 +82,69 @@
                 </div>
                 <img src="./img/MaskGroup2.jpg" alt="photo" class="commerce_centre_img">
             </section>
-            <section class="latest_news_section">
+            <section class="latest_news_section" id="last_news">
                 <div class="news_section container">
 
                     <h3 class="news_heading" >LATEST NEWS</h3>
 
                     <div class="news_slider_container">
                         <div class="news_slider">
-                            <div class="unmached_beauty_div">
-                                <img src="./img/slider_img.jpg" class="unmached_beauty_img">
-                                    <div class="unmached_beauty_div_for_text">
-                                    <h5 class="unmached_beauty_heading">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h5>
-                                    <p class="unmached_beauty_p">Free directories: directories are perfect for customers that are searching for...</p>
-                                        <div class="unmached_beauty_prof">
-                                            <img src="./img/profile_img.jpg" class="unmached_beauty_prof_pic">
-                                                <div class="unmached_beauty_prof_text">
-                                                <p class="unmached_beauty_prof_name">ALJA BRUN</p>
-                                                <p class="unmached_beauty_prof_date">20 Jan 2020</p>
+                            <div class="news_div">
+                                <img src="./img/slider_img.jpg" class="news_img">
+                                    <div class="news_div_for_text">
+                                    <h5 class="small_news_heading">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h5>
+                                    <p class="news_p">Free directories: directories are perfect for customers that are searching for...</p>
+                                        <div class="news_prof">
+                                            <img src="./img/profile_img.jpg" class="news_prof_pic">
+                                                <div class="news_prof_text">
+                                                <p class="news_prof_name">ALJA BRUN</p>
+                                                <p class="news_prof_date">20 Jan 2020</p>
                                                 </div>
                                         </div>
                                     </div>
                             </div>
                         
-                            <div class="effective_advertising_div">
-                                <img src="./img/second_build.jpg" class="effective_advertising_img">
-                                    <div class="effective_advertising_div_for_text">
-                                    <h5 class="effective_advertising_heading">EFFECTIVE ADVERTISING POINTERS.</h5>
-                                    <p class="effective_advertising_p">Having a home based business is a wonderful asset to your life...</p>
-                                        <div class="effective_advertising_prof">
-                                        <img src="./img/prof_pic_2.jpg" class="effective_advertising_prof_pic">
-                                                <div class="effective_advertising_prof_text">
-                                                <p class="effective_advertising_prof_name">DOMINIC FREEMAN</p>
-                                                <p class="effective_advertising_prof_date">13 Dec 2019</p>
+                            <div class="news_div">
+                                <img src="./img/second_build.jpg" class="news_img">
+                                    <div class="news_div_for_text">
+                                    <h5 class="small_news_heading">EFFECTIVE ADVERTISING POINTERS.</h5>
+                                    <p class="news_p">Having a home based business is a wonderful asset to your life...</p>
+                                        <div class="news_prof">
+                                        <img src="./img/prof_pic_2.jpg" class="news_prof_pic">
+                                                <div class="news_prof_text">
+                                                <p class="news_prof_name">DOMINIC FREEMAN</p>
+                                                <p class="news_prof_date">13 Dec 2019</p>
                                                 </div>
                                         </div>
                                     </div>
                             </div>
                         
                         
-                            <div class="hipnotize_yourself_div">
-                                <img src="./img/round_build.jpg" class="hipnotize_yourself_img">
-                                <div class="hipnotize_yourself_div_for_text">
-                                <h5 class="hipnotize_yourself_heading">HYPNOTIZE YOURSELF INTO THE GHOST.</h5>
-                                <p class="hipnotize_yourself_p">There are many things that are important to catalog design...</p>
-                                <div class="hipnotize_yourself_prof">
-                                    <img src="./img/prof_pic_3.jpg" class="hipnotize_yourself_prof_pic">
-                                    <div class="hipnotize_yourself_prof_text">
-                                    <p class="hipnotize_yourself_prof_name">ALICE WARD</p>
-                                    <p class="hipnotize_yourself_prof_date">30 Nov 2019</p>
+                            <div class="news_div">
+                                <img src="./img/round_build.jpg" class="news_img">
+                                <div class="news_div_for_text">
+                                <h5 class="small_news_heading">HYPNOTIZE YOURSELF INTO THE GHOST.</h5>
+                                <p class="news_p">There are many things that are important to catalog design...</p>
+                                <div class="news_prof">
+                                    <img src="./img/prof_pic_3.jpg" class="news_prof_pic">
+                                    <div class="news_prof_text">
+                                    <p class="news_prof_name">ALICE WARD</p>
+                                    <p class="news_prof_date">30 Nov 2019</p>
                                     </div>
                                 </div>
                                 </div>
                             </div>
                         
-                                <div class="effective_advertising_div">
-                                <img src="./img/second_build.jpg" class="effective_advertising_img">
-                                    <div class="effective_advertising_div_for_text">
-                                    <h5 class="effective_advertising_heading">EFFECTIVE ADVERTISING POINTERS.</h5>
-                                    <p class="effective_advertising_p">Having a home based business is a wonderful asset to your life...</p>
-                                        <div class="effective_advertising_prof">
-                                        <img src="./img/prof_pic_2.jpg" class="effective_advertising_prof_pic">
-                                                <div class="effective_advertising_prof_text">
-                                                <p class="effective_advertising_prof_name">DOMINIC FREEMAN</p>
-                                                <p class="effective_advertising_prof_date">13 Dec 2019</p>
+                                <div class="news_div">
+                                <img src="./img/second_build.jpg" class="news_img">
+                                    <div class="news_div_for_text">
+                                    <h5 class="small_news_heading">EFFECTIVE ADVERTISING POINTERS.</h5>
+                                    <p class="news_p">Having a home based business is a wonderful asset to your life...</p>
+                                        <div class="news_prof">
+                                        <img src="./img/prof_pic_2.jpg" class="news_prof_pic">
+                                                <div class="news_prof_text">
+                                                <p class="news_prof_name">DOMINIC FREEMAN</p>
+                                                <p class="news_prof_date">13 Dec 2019</p>
                                                 </div>
                                         </div>
                                     </div>
@@ -148,16 +156,24 @@
             <section class="gallery_section container">
                 <h3 class="gallery_heading">GALLERY</h3>
                 <div>
-                    <div class="gallery_pic">
-                    <img src="./img/gallery_pic_1.jpg" alt="building picture" class="gallery_pic_1">
-                    <img src="./img/360degree.svg" alt="" class="degree">
-                    </div>
-                        <div>
+                    <div class="gallery_pic" id="gallery-container">
+                        <a href="./img/gallery_pic_1.jpg" data-lg-size="1600-2400">
+                            <img src="./img/gallery_pic_1.jpg" alt="building picture" class="gallery_pic_1">
+                        </a>
+                        <a href="./img/gallery_pic_2.jpg" data-lg-size="1600-2400">
                             <img src="./img/gallery_pic_2.jpg" alt="building picture" class="gallery_pic_2">
-                            <img src="./img/gallery_pic_3.jpg" alt="building picture" class="gallery_pic_3">
+                        </a>
+                        <a href="./img/gallery_pic_3.jpg" data-lg-size="1600-2400">
+                            <img src="./img/gallery_pic_3.jpg" alt="building picture" class="gallery_pic_3"> 
+                        </a>
+                        <a href="./img/gallery_pic_4.jpg" data-lg-size="1600-2400">
                             <img src="./img/gallery_pic_4.jpg" alt="building picture" class="gallery_pic_4">
+                        </a>
+                        <a href="./img/gallery_pic_5.jpg" data-lg-size="1600-2400">
                             <img src="./img/gallery_pic_5.jpg" alt="building picture" class="gallery_pic_5">
-                        </div>
+                        </a>
+                    </div>
+                        
                     <a href="#">SEE MORE</a>
                 </div>
             </section>
@@ -166,6 +182,11 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
+
+        <script src="./lg/lightgallery.umd.js"></script>
+        <script src="./lg/lg-thumbnail.umd.js"></script>
+        <script src="./lg/lg-zoom.umd.js"></script>
+
         <script src="script.js"></script>
     </div>
 </body>
