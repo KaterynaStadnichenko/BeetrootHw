@@ -501,6 +501,7 @@ button#slick-slide-control01::before {
 
 .gallery_section {
   margin-top: 170px;
+  margin-bottom: 140px;
 }
 
 .slick-prev, .slick-next {
@@ -514,8 +515,10 @@ button#slick-slide-control01::before {
 }
 
 .gallery_pic {
-  display: inline-flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 285px);
+  grid-template-rows: repeat(2, 214px);
+  grid-gap: 10px;
 }
 
 .degree {
@@ -526,31 +529,10 @@ button#slick-slide-control01::before {
 
 .gallery_pic_1 {
   width: 580px;
-  display: inline-flex;
-  justify-content: space-between;
 }
 
-.first_img_line {
-  width: 100%;
-  max-width: 580px;
-  display: inline-flex;
-  justify-content: space-between;
-}
-
-.gallery_pic {
-  display: inline-flex;
-}
-
-.second_img_div {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 5px;
-}
-
-.gallery_pic_2, .gallery_pic_3, .gallery_pic_4, .gallery_pic_5 {
+.gallery_pic_2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
   width: 285px;
-}
-
-.smaller_pics {
-  width: 580px;
 }
