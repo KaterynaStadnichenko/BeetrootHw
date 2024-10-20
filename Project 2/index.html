@@ -4,18 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monticello</title>
-    <link rel="stylesheet" href="./style.css">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
@@ -23,13 +17,16 @@
 
     <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
 
-    
     <link type="text/css" rel="stylesheet" href="./lg/lg-zoom.css" />
     <link type="text/css" rel="stylesheet" href="./lg/lg-thumbnail.css" />
     <link type="text/css" rel="stylesheet" href="./lg/lightgallery.css"/>
     <link type="text/css" rel="stylesheet" href="./lg/lightgallery-bundle.css" />
 
     <link  rel="stylesheet" href="./fonts/fa/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="page_wrapper ">
@@ -156,32 +153,47 @@
                 <h3 class="gallery_heading">GALLERY</h3>
                 
                     <div class="gallery_pic container gallery_style" id="gallery-container">
-                        <a href="./img/thumbnail1.jpg" data-lg-size="1600-2400" class="gallery_item_1">
+                        <a href="./img/building1.jpg" data-lg-size="1600-2400" class="gallery_item_1">
                             <img src="./img/img1.jpg" alt="building picture" class="gallery_pic_1">
                         </a>
-                        <!-- <div class="smaller_pics">
-                            <div class="first_img_line"> -->
-                                <a href="./img/thumbnail2.jpg" data-lg-size="1600-2400" class="gallery_item_2">
+                                <a href="./img/building2.jpg" data-lg-size="1600-2400" class="gallery_item_2">
                                     <img src="./img/img2.jpg" alt="fses" class="gallery_pic_2">
                                 </a>
-                                <a href="./img/thumbnail3.jpg" data-lg-size="1600-2400" class="gallery_item_3">
+                                <a href="./img/building3.jpg" data-lg-size="1600-2400" class="gallery_item_3">
                                     <img src="./img/img3.jpg" alt="mkdf" class="gallery_pic_3"> 
                                 </a>
-                            <!-- </div> -->
-                            <!-- <div class="second_img_div"> -->
-                                <a href="./img/img4.jpg" data-lg-size="1600-2400" class="gallery_item_4">
-                                    <img src="./img/building4.jpg" alt="fesfse" class="gallery_pic_4">
+                       
+                                <a href="./img/building4.jpg" data-lg-size="1600-2400" class="gallery_item_4">
+                                    <img src="./img/img4.jpg" alt="fesfse" class="gallery_pic_4">
                                 </a>
-                                <a href="./img/img5.jpg" data-lg-size="1600-2400" class="gallery_item_5">
-                                    <img src="./img/thumbnail5.png" alt="bsefe" class="gallery_pic_5">
+                                <a href="./img/building5.jpg" data-lg-size="1600-2400" class="gallery_item_5">
+                                    <img src="./img/img5.jpg" alt="bsefe" class="gallery_pic_5">
                                 </a>
                             <!-- </div> -->
                     </div>
-                    <a href="#">SEE MORE</a>
-                </div>
+                    <div class="see_more_button">
+                    <a href="#" class="see_more">SEE MORE</a>
+                    </div>
             </section>
+
+            <div id="map"></div>
         </main>
-        <footer></footer>
+        <footer class="footer">
+            <div class="footer_div">
+                <div class="logo_div">
+                <a class="footer_logo" href="../Project 2/index.html">
+                    <img src="./img/logo2.svg" alt="logo">
+                </a>
+                <p class="footer_p">Copyrights © 2020 Montichello</p>
+                </div>
+                <div class="hero_social footer_social" >
+                    <i class="fa-brands fa-facebook-f" href="#"></i>
+                    <i class="fa-brands fa-twitter" href="#"></i>
+                    <i class="fa-brands fa-instagram" href="#"></i>
+                </div>
+            </div>
+           
+        </footer>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -189,6 +201,9 @@
         <script src="./lg/lightgallery.umd.js"></script>
         <script src="./lg/lg-thumbnail.umd.js"></script>
         <script src="./lg/lg-zoom.umd.js"></script>
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
 
         <script src="script.js"></script>
     </div>
