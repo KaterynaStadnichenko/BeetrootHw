@@ -676,11 +676,6 @@ button#slick-slide-control01::before {
   transition: 350ms;
 }
 
-.forms_icon {
-  color: #7e5aff;
-  padding-right: 10px;
-}
-
 .fa-location-dot, .fa-phone, .fa-inbox, .fa-clock {
   color: #7e5aff;
   padding-right: 10px;
