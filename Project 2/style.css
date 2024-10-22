@@ -576,11 +576,13 @@ button#slick-slide-control01::before {
 
 #map {
   height: 700px;
+  position: relative;
 }
 
 .footer {
   background-image: url(./img/Background.jpg);
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .footer_div {
@@ -605,4 +607,70 @@ button#slick-slide-control01::before {
 
 .footer_social {
   color: white;
+}
+
+.form {
+  width: 100%;
+  max-width: 770px;
+  margin: 0 auto;
+  background-image: url(./img/forms_back.jpg);
+  background-repeat: no-repeat;
+  background-color: white;
+  position: relative;
+  z-index: 99999;
+  margin-top: -870px;
+  background-position: center;
+}
+
+.form_title {
+  font-size: 44px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.form_div {
+  max-width: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 69px;
+}
+
+.form_contacts {
+  max-width: 286px;
+  width: 100%;
+  color: black;
+}
+
+.forms_input {
+  max-width: 310px;
+  width: 100%;
+}
+
+.forms_fullname {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid rgba(75, 85, 98, 0.25);
+  margin-bottom: 33px;
+  height: 41px;
+}
+.forms_fullname:hover {
+  border-bottom: 2px solid #4b5562;
+  transition: 350ms;
+}
+
+.forms_email {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid rgba(75, 85, 98, 0.25);
+  margin-bottom: 33px;
+  height: 41px;
+}
+.forms_email:hover {
+  border-bottom: 2px solid #4b5562;
+  transition: 350ms;
 }
