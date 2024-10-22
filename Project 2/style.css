@@ -583,6 +583,7 @@ button#slick-slide-control01::before {
   background-image: url(./img/Background.jpg);
   background-repeat: no-repeat;
   position: relative;
+  background-size: cover;
 }
 
 .footer_div {
