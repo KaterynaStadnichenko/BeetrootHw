@@ -20,6 +20,11 @@ document.getElementById('news').addEventListener('click', function() {
   lowerSection.scrollIntoView({ behavior: 'smooth' });
 });
 
+document.getElementById('contact').addEventListener('click', function() {
+  const lowerSection = document.getElementById('map');
+  lowerSection.scrollIntoView({ behavior: 'smooth' });
+});
+
 $(document).ready(function(){
   $('.news_slider').slick({
       dots: true,
@@ -56,3 +61,41 @@ const greenIcon = L.icon({
 });
 
 L.marker([37.98591543248659, 23.735404487599645], {icon: greenIcon}).addTo(map);
+
+document.getElementById('submitButton').value = document.getElementById('submitButton').value.toUpperCase();
+
+        // Add event listener to the form
+        document.getElementById('forms_input').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting
+
+            // Clear previous error messages
+            document.getElementById('fullNameError').innerText = '';
+            document.getElementById('emailError').innerText = '';
+
+            // Get form values
+            const fullName = document.getElementById('fullname').value;
+            const email = document.getElementById('email').value;
+
+            // Validate full name
+            if (fullName.trim() === '') {
+                document.getElementById('fullNameError').innerText = 'Full Name is required';
+                return;
+            }
+
+            // Validate email
+            if (email.trim() === '') {
+                document.getElementById('emailError').innerText = 'Email is required';
+                return;
+            } else if (!validateEmail(email)) {
+                document.getElementById('emailError').innerText = 'Invalid email format';
+                return;
+            }
+
+            // If all validations pass, you can submit the form programmatically
+            this.submit();
+        });
+
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }

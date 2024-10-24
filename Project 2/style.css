@@ -162,6 +162,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin-bottom: 60px;
+  cursor: pointer;
 }
 .trade_center_button:hover {
   background-color: #2c4058;
@@ -229,6 +230,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin-bottom: 60px;
+  cursor: pointer;
 }
 .commerce_centre_button:hover {
   background-color: #2c4058;
@@ -656,7 +658,7 @@ button#slick-slide-control01::before {
   width: 100%;
   border-bottom: 2px solid rgba(75, 85, 98, 0.25);
   margin-bottom: 33px;
-  height: 41px;
+  height: 40px;
 }
 .forms_fullname:hover {
   border-bottom: 2px solid #4b5562;
@@ -668,8 +670,8 @@ button#slick-slide-control01::before {
   border: none;
   width: 100%;
   border-bottom: 2px solid rgba(75, 85, 98, 0.25);
-  margin-bottom: 33px;
-  height: 41px;
+  margin-bottom: 40px;
+  height: 40px;
 }
 .forms_email:hover {
   border-bottom: 2px solid #4b5562;
@@ -680,4 +682,26 @@ button#slick-slide-control01::before {
   color: #7e5aff;
   padding-right: 10px;
   font-size: 14px;
+}
+
+.error {
+  color: red;
+}
+
+.submit_button {
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: transparent;
+  font-size: 18px;
+  border: 2px solid #2c4058;
+  text-transform: uppercase;
+  margin-left: 177px;
+  cursor: pointer;
+}
+.submit_button:hover {
+  background-color: #2c4058;
+  color: white;
+  transition-duration: 400ms;
 }

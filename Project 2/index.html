@@ -206,11 +206,15 @@
                 <p><i class="fa-solid fa-inbox" class="forms_icon"></i>montichello@service.com</p>
                 <p><i class="fa-regular fa-clock" class="forms_icon"></i>From 07:05AM to 19:30PM</p>
             </div>
-            <div class="forms_input">
+            <form class="forms_input" id="forms_input">
+                <!-- <label for="fullName">Full Name:</label> -->
                 <input type="text" id="fullname" name="fullname" placeholder="Full Name" class="forms_fullname">
+                <span id="fullNameError" class="error"></span>
+                <!-- <label for="email">Email:</label> -->
                 <input type="text" id="email" name="email" placeholder="Email" class="forms_email">
-                <input type="submit" placeholder="submit" class="forms_button">
-            </div>
+                <span id="emailError" class="error"></span>
+                <input type="submit" value="Submit" class="submit_button" id="submitButton">
+            </form>
         </div>
     </div>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

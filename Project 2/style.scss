@@ -162,7 +162,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     margin-bottom: 60px;
-    
+    cursor: pointer;
 
     &:hover {
       background-color: #2c4058;
@@ -224,6 +224,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     margin-bottom: 60px;
+    cursor: pointer;
     &:hover {
       background-color: #2c4058;
       color: white;
@@ -599,7 +600,7 @@ padding-left: 547px;
   width: 100%;
   border-bottom: 2px solid rgba(75, 85, 98, 0.25);
   margin-bottom: 33px;
-  height: 41px;
+  height: 40px;
 
   &:hover {
     border-bottom: 2px solid rgba(75, 85, 98, 1);
@@ -611,8 +612,9 @@ padding-left: 547px;
   border: none;
   width: 100%;
   border-bottom: 2px solid rgba(75, 85, 98, 0.25);
-  margin-bottom: 33px;
-  height: 41px;
+  margin-bottom: 40px;
+height: 40px;
+
 
   &:hover {
     border-bottom: 2px solid rgba(75, 85, 98, 1);
@@ -624,4 +626,24 @@ padding-left: 547px;
   color: rgba(126, 90, 255, 1);
   padding-right: 10px;
   font-size: 14px;
+}
+.error {
+  color: red;
+}
+.submit_button {
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: transparent;
+  font-size: 18px;
+  border: 2px solid rgba(44, 64, 88, 1);
+  text-transform: uppercase;
+      margin-left: 177px;
+  cursor: pointer;
+  &:hover {
+    background-color: #2c4058;
+    color: white;
+    transition-duration: 400ms;
+  }
 }
